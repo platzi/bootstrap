@@ -12,6 +12,25 @@
   filter: grayscale(70%);
 }
 
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
 #footer {
   background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 }
