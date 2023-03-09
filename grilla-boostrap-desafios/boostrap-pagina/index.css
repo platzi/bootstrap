@@ -22,7 +22,12 @@ section .carousel-inner {
    position: relative;
 }
 
-#cartousel .overlay {
+#carousel .overlay .container,
+#carousel .overlay .row {
+   height: 100%;
+}
+
+.overlay {
    position: absolute;
    /* indico que no tenga espacio ni arriba ni abajo */
    top: 0;
