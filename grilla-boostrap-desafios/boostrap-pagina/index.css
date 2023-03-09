@@ -16,7 +16,22 @@ section .carousel-inner {
    filter: grayscale(70%);
 }
 
+/* overlay se expanda por todo el alto del carousel */
 
+#carousel {
+   position: relative;
+}
+
+#cartousel .overlay {
+   position: absolute;
+   /* indico que no tenga espacio ni arriba ni abajo */
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba (0, 0, 0, 0.5);
+   color: white;
+}
 
 
 
