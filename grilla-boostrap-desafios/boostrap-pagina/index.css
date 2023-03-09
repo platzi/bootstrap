@@ -3,6 +3,7 @@
    color: #97c93e;
 }
 
+
 /* !ENCABEZADO */
 
 .navbar img {
@@ -37,6 +38,13 @@ section .carousel-inner {
    background-color: rgba (0, 0, 0, 0.5);
    color: white;
 }
+
+.btn-platzi {
+   background-color: #97c93e;
+   color: white;
+}
+
+
 
 
 
