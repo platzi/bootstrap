@@ -1,0 +1,18 @@
+.container {
+   width: 100%;
+}
+
+.col {
+   height: 100px;
+
+   background-color: rgb(40, 186, 130);
+   border:1px solid white;
+}
+
+h1 {
+   padding: 15px;
+}
+
+.container-reto2 .col {
+   background-color: rgb(174, 110, 233);
+}
